@@ -1,0 +1,8 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: cloudtest-excute-service
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
